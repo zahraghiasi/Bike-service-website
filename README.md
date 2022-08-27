@@ -1,9 +1,9 @@
 # Bike-service-website
 This is site for bike service center.
 
-##a Simple HTML & CSS website
+## a Simple HTML & CSS website
 
-###pages: 
+### pages: 
 
-*Home Page
-*Contact Us Page
+ * Home Page
+ * Contact Us Page
