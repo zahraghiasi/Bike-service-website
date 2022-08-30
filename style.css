@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(#A9C9FF, #FFBBEC);
+    background-image: linear-gradient(#FFBBEC, #577BFF);
 
 }
 
@@ -8,7 +8,7 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #FCFB7C;
     font-size: 1.125rem;
 }
 
@@ -30,7 +30,7 @@ header {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 3px solid lightgray;
+    border-bottom: 3px solid #423D3D;
 }
 
 main {
@@ -80,6 +80,7 @@ main {
 .herobox1 {
     flex: 2;
     padding-right: 100px;
+    color: #423D3D;
 }
 
 .herobox2 {
@@ -116,8 +117,9 @@ p {
 }
 
 .mybutton {
+    font-weight: bold;
     background-color: white;
-    color: #A9C9FF;
+    color: #577BFF;
     font-family: 'Playfair Display', serif;
     padding: 11px 25px;
     margin: 20px 20px;
@@ -126,7 +128,7 @@ p {
 }
 
 .mybutton:hover {
-    background-color: #FFBBEC;
+    background-color: #423D3D;
     transition-duration: 1s;
 }
 
@@ -156,4 +158,12 @@ nav a.mybutton {
     /* border: 1px solid #fff; */
     box-sizing: border-box;
     /* margin-top: 50px; */
+}
+
+.t-name {
+    color: #FFBBEC;
+}
+
+.main2 {
+    color: #423D3D;
 }
