@@ -1,0 +1,43 @@
+.navbutton {
+    background-color: rgba(0, 0, 0, 0.059);
+    border-radius: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    padding: 10px 25px;
+    width: 110px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+  }
+
+  /* This turn the drop down off when not used */
+  .dropdown {
+    display: none;
+    position: absolute;
+    font-size: 13px;
+    /* z-index: 10; */
+    top: 38px;
+    right: 0;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  /* This turn the drop down on during hover  */
+  .navbutton:hover .dropdown {
+    display: block;
+  }
+
+  .navbutton:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  
+  
+  .navbutton:hover .dropdown {
+    display: block;
+  }
+  
+  .navbutton .dropdown {
+    width: fit-content;
+    background-color: #423D3D;
+  }
+  
