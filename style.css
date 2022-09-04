@@ -113,7 +113,8 @@ p {
 }
 
 .cards i {
-    font-size: 100px;
+    font-size: 80px;
+    padding-top: 10px;
 }
 
 .mybutton {
@@ -134,8 +135,7 @@ p {
 
 a.mybutton {
     display: inline-block;
-    margin-top: 1
-    0px;
+    margin-top: 1px 0px;
 }
 
 nav a.mybutton {
