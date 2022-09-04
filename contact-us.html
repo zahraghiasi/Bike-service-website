@@ -10,7 +10,8 @@
     <meta name="description" content="Contact details for Roar - 57 Moyglare Abbey, Dublin, w23clk2, phone +353 5465481">
 
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="dropdown.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 </head>
@@ -52,7 +53,16 @@
 
         <div class="main2">
             <h1>Contact Us</h1>
-            <p>Do you hava eany question? Please do not hesitate to contact us directly. Our team will come back to you within a amtter of hours to help you.</p>
+            <p>Do you hava any question? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+            
+            <form action="mail.php" method="post">
+
+                <input type="text" name="name" id="name">
+                <input type="email" name="email" id="email">
+                <input type="submit" value="Fire Away">
+
+            </form>
+        
         </div>
 
         <div class="cards">

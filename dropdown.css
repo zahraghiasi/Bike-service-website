@@ -8,36 +8,34 @@
     text-align: center;
     display: inline-block;
     position: relative;
-  }
+}
 
-  /* This turn the drop down off when not used */
-  .dropdown {
+/* This turn the drop down off when not used */
+.dropdown {
     display: none;
     position: absolute;
     font-size: 13px;
-    /* z-index: 10; */
+    z-index: 1;
     top: 38px;
     right: 0;
     text-align: center;
     border-radius: 10px;
-  }
+}
 
-  /* This turn the drop down on during hover  */
-  .navbutton:hover .dropdown {
+/* This turn the drop down on during hover  */
+.navbutton:hover .dropdown {
     display: block;
-  }
+}
 
-  .navbutton:hover {
+.navbutton:hover {
     border-bottom: 1px solid rgb(255, 255, 255);
-  }
-  
-  
-  .navbutton:hover .dropdown {
+}
+
+.navbutton:hover .dropdown {
     display: block;
-  }
-  
-  .navbutton .dropdown {
+}
+
+.navbutton .dropdown {
     width: fit-content;
     background-color: #423D3D;
-  }
-  
+}
